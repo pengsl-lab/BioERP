@@ -3,7 +3,7 @@ BioERP: a biomedical heterogeneous network-based self-supervised representation 
 
 # Data description
 * DeepViral-Net: a complex heterogeneous networks is downloaded from https://github.com/bio-ontology-research-group/DeepViral/tree/master/data.
-* ProGO-Net: a complex heterogeneous networks is downloaded from https://github.com/bio-ontology-research-group/machine-learning-with-ontologies and https://doi.org/10.5281/zenodo.3779900
+* ProGO-Net: a complex heterogeneous networks is downloaded from https://github.com/bio-ontology-research-group/machine-learning-with-ontologies and https://doi.org/10.5281/zenodo.3779900.
 * NeoDTI-Net: a complex heterogeneous networks is downloaded from https://github.com/FangpingWan/NeoDTI.git.
 * deepDR-Net: a complex heterogeneous networks is downloaded from https://github.com/ChengF-Lab/deepDR.git
 * CTD-DDA, NDFRT-DDA, DrugBank-DDI and STRING-PPI: four single biomedical networks are downloaded from https://github.com/xiangyue9607/BioNEV.git.
