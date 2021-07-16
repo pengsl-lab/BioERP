@@ -44,7 +44,6 @@ The max_predictions_per_seq is the maximum number of masked meta path prediction
   --do_train=True   \  
   --do_eval=True   \  
   --bert_config_file=~path/uncased_L-12_H-768_A-12/bert_config.json   \ 
-  --init_checkpoint=~path/local_model.ckpt \
   --train_batch_size=32   \  
   --max_seq_length=128   \  
   --max_predictions_per_seq=20   \  
