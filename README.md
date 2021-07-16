@@ -40,7 +40,7 @@ The max_predictions_per_seq is the maximum number of masked meta path prediction
 * Run run_pretraining.py to train a network representation model based on bio-entity mask mechanism.
 <pre> python run_pretraining.py   \  
   --input_file=~path/tf_examples.tfrecord   \  
-  --output_dir=~path/RLearing_output   \  
+  --output_dir=~path/Local_RLearing_output   \  
   --do_train=True   \  
   --do_eval=True   \  
   --bert_config_file=~path/uncased_L-12_H-768_A-12/bert_config.json   \ 
@@ -64,15 +64,15 @@ The max_predictions_per_seq is the maximum number of masked meta path prediction
   --train_batch_size=256 \
   --learning_rate=2e-5 \
   --num_train_epochs=10 \
-  --output_dir=~path/RLearing_output  </pre>
+  --output_dir=~path/Global_RLearing_output  </pre>
 
-* Run extract_features.py extract_features.py to attain the low-dimensional representation vectors of vertices.
+* Run extract_features.py extract_features.py to attain the low-dimensional vectors from two representation models.
 <pre> python extract_features.py   \  
   --input_file=~path/node.txt   \  
   --output_file=~path/output.jsonl   \  
   --vocab_file=~path/uncased_L-12_H-768_A-12/vocab.txt   \  
   --bert_config_file=~path/uncased_L-12_H-768_A-12/bert_config.json   \  
-  --init_checkpoint=~path/RLearing_output/model.ckpt  \  
+  --init_checkpoint=~path/Local_RLearing_output(or Global_RLearing_output)/model.ckpt  \  
   --layers=-1,-2,-3,-4   \  
   --max_seq_length=7   \  
   --batch_size=8 </pre>
