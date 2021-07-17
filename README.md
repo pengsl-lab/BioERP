@@ -8,7 +8,6 @@ BioERP: a biomedical heterogeneous network-based self-supervised representation 
 * deepDR-Net: a complex heterogeneous networks is downloaded from https://github.com/ChengF-Lab/deepDR.git.
 * CTD-DDA, NDFRT-DDA, DrugBank-DDI and STRING-PPI: four single biomedical networks are downloaded from https://github.com/xiangyue9607/BioNEV.git.
 
-
 # Requirements
 BioERP is tested to work under:
 * Python 3.6  
@@ -74,8 +73,10 @@ The max_predictions_per_seq is the maximum number of masked meta path prediction
   --init_checkpoint=~path/Local_RLearing_output(or Global_RLearing_output)/model.ckpt  \  
   --layers=-1,-2,-3,-4   \  
   --max_seq_length=7   \  
-  --batch_size=8 </pre>
-
+  --batch_size=8   </pre>
+  
+* Run TDI_NeoDTI.py to predict of the confidence scores between drugs and targets for NeoDTI-Net. 
+<pre> python TDI_NeoDTI.py </pre> 
 
 # Contacts
 If you have any questions or comments, please feel free to email: xqw@hnu.edu.cn.
