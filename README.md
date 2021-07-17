@@ -75,7 +75,7 @@ The max_predictions_per_seq is the maximum number of masked meta path prediction
   --max_seq_length=7   \  
   --batch_size=8   </pre>
   
-* Run TDI_NeoDTI.py to predict of the confidence scores between drugs and targets for NeoDTI-Net. 
+* Run TDI_NeoDTI.py to predict of the confidence scores between targets and drugs for NeoDTI-Net. 
 <pre> python TDI_NeoDTI.py </pre> 
 
 # Contacts
