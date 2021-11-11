@@ -79,11 +79,11 @@ The max_predictions_per_seq is the maximum number of masked meta path prediction
 <pre> python TDI_NeoDTI.py </pre> 
 
 # Please cite our paper if you use this code and data in your work.
-@article{BioERP2021,
-title = {BioERP: biomedical heterogeneous network-based self-supervised representation learning approach for entity relationship predictions},
-author = {Wang Xiaoqi, and Yang Yaning, and Li Kenli, and Li Wentao, and Li Fei, and Peng Shaoliang},
-journal = {Bioinformatics},
-year = {2021},
+@article{BioERP2021, \
+title = {BioERP: biomedical heterogeneous network-based self-supervised representation learning approach for entity relationship predictions},  \
+author = {Wang Xiaoqi, and Yang Yaning, and Li Kenli, and Li Wentao, and Li Fei, and Peng Shaoliang},  \
+journal = {Bioinformatics},  \
+year = {2021},  \
 doi = {10.1093/bioinformatics/btab565}
 }
 
