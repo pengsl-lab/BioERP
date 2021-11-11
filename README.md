@@ -84,7 +84,7 @@ title = {BioERP: biomedical heterogeneous network-based self-supervised represen
 author = {Wang Xiaoqi, and Yang Yaning, and Li Kenli, and Li Wentao, and Li Fei, and Peng Shaoliang},  \
 journal = {Bioinformatics},  \
 year = {2021},  \
-doi = {10.1093/bioinformatics/btab565}
+doi = {10.1093/bioinformatics/btab565}  \
 }
 
 # Contacts
